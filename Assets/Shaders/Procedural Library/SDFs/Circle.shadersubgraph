@@ -1089,6 +1089,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "2b805aa8c8f14868bf43c4bc631c8784",
+    "m_Id": 3,
+    "m_DisplayName": "SDFStroke",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "SDFStroke",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "2beb997317ee4865a2cff9d06737ef24",
     "m_Id": 1,
@@ -2629,21 +2644,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "beab3bb8c316467199c8169b34f4f21a",
-    "m_Id": 3,
-    "m_DisplayName": "SDF_Stroke",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "SDF_Stroke",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "c294dd46d3fe48658306e5aba4066611",
     "m_Group": {
@@ -2870,7 +2870,7 @@
             "m_Id": "c40dac0bc1004b9188519cd239fda048"
         },
         {
-            "m_Id": "beab3bb8c316467199c8169b34f4f21a"
+            "m_Id": "2b805aa8c8f14868bf43c4bc631c8784"
         }
     ],
     "synonyms": [],
