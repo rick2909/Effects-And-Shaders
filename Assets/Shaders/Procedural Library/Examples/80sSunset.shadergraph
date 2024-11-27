@@ -8,6 +8,9 @@
         },
         {
             "m_Id": "f777c553da844f6688961cdaa512abb6"
+        },
+        {
+            "m_Id": "1229e70f8bfd4c4782413e85cb96fe78"
         }
     ],
     "m_Keywords": [],
@@ -71,6 +74,9 @@
         },
         {
             "m_Id": "c0cf81c13f474ae7aa4c7515a7d9f88a"
+        },
+        {
+            "m_Id": "176c1bbc89004f0880f8c2ddf18dde2a"
         }
     ],
     "m_GroupDatas": [],
@@ -88,6 +94,20 @@
                     "m_Id": "be2fe8b0efb64e47b0201e6db8bf37cc"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "176c1bbc89004f0880f8c2ddf18dde2a"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "6b1a3a723c64401883adee41d56c6cf1"
+                },
+                "m_SlotId": 924784454
             }
         },
         {
@@ -332,7 +352,7 @@
         },
         "preventRotation": false
     },
-    "m_Path": "Shader Graphs",
+    "m_Path": "Procedural/Example",
     "m_GraphPrecision": 1,
     "m_PreviewMode": 2,
     "m_OutputNode": {
@@ -567,6 +587,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "1229e70f8bfd4c4782413e85cb96fe78",
+    "m_Guid": {
+        "m_GuidSerialized": "ba4804dc-d11d-4970-8bd9-a5949b6c8c1e"
+    },
+    "m_Name": "Speed",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Speed",
+    "m_DefaultReferenceName": "_Speed",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.10000000149011612,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "16a48d466af74c14a9bae14185ce34da",
@@ -612,6 +660,42 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "176c1bbc89004f0880f8c2ddf18dde2a",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1368.0,
+            "y": 495.0000305175781,
+            "width": 108.9998779296875,
+            "height": 33.999969482421878
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "50d8944a15e94b3697986e57530f85b7"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "1229e70f8bfd4c4782413e85cb96fe78"
     }
 }
 
@@ -1148,6 +1232,21 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Switch",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "50d8944a15e94b3697986e57530f85b7",
+    "m_Id": 0,
+    "m_DisplayName": "Speed",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -2684,6 +2783,9 @@
         },
         {
             "m_Id": "ed9cf66624454d998c075e8c26e7127a"
+        },
+        {
+            "m_Id": "1229e70f8bfd4c4782413e85cb96fe78"
         }
     ]
 }
